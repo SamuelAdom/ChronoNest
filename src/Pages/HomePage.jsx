@@ -5,6 +5,7 @@ import NewArrivalsBanner from '../Components/ArrivalBanner'
 import EyeBanner from '../Components/EyeBanner'
 import Stylish from '../Components/Stylish'
 import TopSellers from '../Components/TopSellers'
+import Materials from '../Components/Materials'
 
 
 const HomePage = () => {
@@ -17,6 +18,7 @@ const HomePage = () => {
    <Stylish/>
    <NewArrivalsBanner/>
    <TopSellers/>
+   <Materials/>
   
     </div>
   )
