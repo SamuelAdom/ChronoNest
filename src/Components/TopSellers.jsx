@@ -11,7 +11,7 @@ const TopSellers = () => {
             <p className='text-lg font-sans'>Take a look at these top performers.</p>
         </div>
         
-        <div className='grid grid-cols-1 '>
+        <div className='flex flex-col justify-center items-center sm:grid sm:grid-cols-3 lg:grid lg:grid-cols-4 p-4 '>
             {products.slice(0,4).map((items)=>{
             return(
                 <div key={items.id}>
