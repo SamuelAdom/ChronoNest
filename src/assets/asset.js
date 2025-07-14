@@ -8,6 +8,11 @@ import urban_luxury from './urban_luxury.png'
 import Sun from './Sun.jpg'
 import Brace from './Brace.jpg'
 import Sport_Watch from './Sport Watch.jpg'
+import Esquire from './Esquire.png'
+import GQ from './GQ.png'
+import Men_Health from './Mens_Health.png'
+import Vogue from './Vogue.png'
+
 
 export const products = [
   {

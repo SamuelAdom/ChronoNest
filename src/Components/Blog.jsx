@@ -6,11 +6,11 @@ const Blog = () => {
      <div className="bg-gray-100 border">
         <section className="py-14">
             <div className="max-w-screen-xl mx-auto px-4 md:px-8">
-                <div className="max-w-xl mx-auto sm:text-center">
-                    <h3 className="text-lg font-mono">
+                <div className="max-w-xl mx-auto text-center">
+                    <h3 className="text-2xl font-mono">
                       Latest News
                     </h3>
-                    <p className="text-7xl text-black mt-3 font-serif">
+                    <p className="text-4xl sm:text-6xl text-black mt-3 font-serif">
                        From The Blog
                     </p>
                 </div>

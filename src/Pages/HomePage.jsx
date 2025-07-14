@@ -10,6 +10,7 @@ import NewProduct from '../Components/NewProduct'
 import NewsLetter from '../Components/NewsLetter'
 import Compare from '../Components/Compare'
 import Blog from '../Components/Blog'
+import LogoGrid from '../Components/LogoGrid'
 
 const HomePage = () => {
   return (
@@ -27,6 +28,7 @@ const HomePage = () => {
    <NewArrivalsBanner/>
    <Compare/>
    <Blog/>
+   <LogoGrid/>
   
     </div>
   )
