@@ -7,6 +7,7 @@ import Stylish from '../Components/Stylish'
 import TopSellers from '../Components/TopSellers'
 import Materials from '../Components/Materials'
 import NewProduct from '../Components/NewProduct'
+import NewsLetter from '../Components/NewsLetter'
 
 
 const HomePage = () => {
@@ -21,6 +22,8 @@ const HomePage = () => {
    <TopSellers/>
    <Materials/>
    <NewProduct/>
+   <NewsLetter/>
+   <NewArrivalsBanner/>
   
     </div>
   )
