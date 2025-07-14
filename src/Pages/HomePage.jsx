@@ -9,7 +9,7 @@ import Materials from '../Components/Materials'
 import NewProduct from '../Components/NewProduct'
 import NewsLetter from '../Components/NewsLetter'
 import Compare from '../Components/Compare'
-
+import Blog from '../Components/Blog'
 
 const HomePage = () => {
   return (
@@ -26,6 +26,7 @@ const HomePage = () => {
    <NewsLetter/>
    <NewArrivalsBanner/>
    <Compare/>
+   <Blog/>
   
     </div>
   )
