@@ -1,11 +1,12 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import Glasses from '../assets/Glasses.jpg'
+import { products } from '../assets/asset'
+import ProductCard from './ProductCard'
 
 const Compare = () => {
   return (
     <div className="grid grid-cols-1 sm:grid-cols-2 mt-8 m-5 sm:m-15 gap-6">
-      {/* Text Section */}
+     
       <motion.div
         className="flex flex-col gap-4 sm:mt-40"
         initial={{ opacity: 0, y: 40 }}
@@ -13,11 +14,14 @@ const Compare = () => {
         viewport={{ once: true }}
         transition={{ duration: 0.8 }}
       >
-        <p className="text-md font-mono">Hand-Picked</p>
-        <h1 className="text-4xl sm:text-6xl font-serif">Product Of The Week</h1>
+        <p className="text-md font-mono">Compare</p>
+        <h1 className="text-4xl sm:text-7xl font-serif">Which Is The<br/> Better Choice?</h1>
         <p className="text-lg font-sans">
-          Experience the pinnacle of eyewear innovation with Flare Glaciers. These sunglasses are meticulously crafted to elevate your style while providing unmatched visual clarity.
+            Both timepieces offer exceptional craftsmanship and attention to detail. The choice is yours.
         </p>
+   <div>
+         <button className="bg-transparent text-black border-2 border-black px-10 py-3  hover:border-3 cursor-pointer">SHOP MORE</button>
+   </div>
       </motion.div>
 
 
@@ -28,28 +32,23 @@ const Compare = () => {
         viewport={{ once: true }}
         transition={{ duration: 0.8, delay: 0.2 }}
       >
+<div className='grid grid-cols-2'>
+       {products.slice(0,2).map((items)=>{
+        return(
+            <div key={items.id}>
+                <ProductCard items={items}/>
 
-        <img
-          src={Glasses}
-          alt="product"
-          className="w-full h-full object-cover border-2"
-        />
+            </div>
+        )
+       })}
+        </div>
+      
 
         {/* Card Content */}
         <div className="absolute inset-0 flex flex-col justify-between items-center p-6 text-black text-center">
-          <div>
-            <h3 className="text-3xl font-serif font-semibold mb-2">Sunglasses</h3>
-            <p className="text-lg font-light mb-4">$89.99</p>
-          </div>
+          
 
-          <div className="flex flex-col gap-4 w-full">
-            <button className="w-full px-4 py-3 bg-white text-black rounded-sm lg:hover:border-2 cursor-pointer transition">
-           ADD TO CART
-            </button>
-            <button className="w-full px-4 py-3 border border-black rounded-sm cursor-pointer lg:hover:bg-black lg:hover:text-white transition">
-            VIEW PRODUCT
-            </button>
-          </div>
+          
         </div>
       </motion.div>
     </div>

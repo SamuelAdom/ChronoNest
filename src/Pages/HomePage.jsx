@@ -8,6 +8,7 @@ import TopSellers from '../Components/TopSellers'
 import Materials from '../Components/Materials'
 import NewProduct from '../Components/NewProduct'
 import NewsLetter from '../Components/NewsLetter'
+import Compare from '../Components/Compare'
 
 
 const HomePage = () => {
@@ -24,6 +25,7 @@ const HomePage = () => {
    <NewProduct/>
    <NewsLetter/>
    <NewArrivalsBanner/>
+   <Compare/>
   
     </div>
   )
