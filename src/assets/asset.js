@@ -5,6 +5,9 @@ import dyna_chrono from './dyna_chrono.png'
 import prestige_horizons from './prestige_horizons.png'
 import smart_sync from './smart-sync.png'
 import urban_luxury from './urban_luxury.png'
+import Sun from './Sun.jpg'
+import Brace from './Brace.jpg'
+import Sport_Watch from './Sport Watch.jpg'
 
 export const products = [
   {
@@ -48,5 +51,25 @@ export const products = [
     name: "Urban Luxury",
     price: 219.99,
     image: urban_luxury,
+  },
+]
+export const blog=[
+   {
+    id: 1,
+    category: "Blog | Watches",
+    description: "Time in Motion: The Power of a Modern Sport Watch",
+    image: Sport_Watch,
+  },
+   {
+    id: 2,
+    category: "Blog | Sunglasses",
+    description: "See the Sun Differently: Bold Sunglasses for Every Look",
+    image: Sun,
+  },
+   {
+    id:3,
+    category: "Blog | Bracelets",
+    description: "Style Wrapped Around Your Wrist: The Modern Bracelet",
+    image:Brace,
   },
 ]
