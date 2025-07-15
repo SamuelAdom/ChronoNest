@@ -13,6 +13,9 @@ import GQ from './GQ.png'
 import Men_Health from './Mens_Health.png'
 import Vogue from './Vogue.png'
 import About_Background from './About_Background.jpg'
+import icon_delivery from './icon_delivery.png'
+import icon_payment from './icon-payment.png'
+import icon_return from './icon-return.png'
 
 
 export const products = [
@@ -79,3 +82,21 @@ export const blog=[
     image:Brace,
   },
 ]
+export const features = [
+        {
+            icon:icon_delivery,
+            title: "Express Delivery",
+            desc: "We’ll ship the order immediately after your purchase."
+        },
+        {
+            icon:icon_return,
+            title: "Free Returns",
+            desc: "All returns are free within 30 days of your order."
+        },
+
+        {
+            icon:icon_payment,
+            title: "Secure Payment",
+            desc: "All payments on our site are processed securely."
+        }
+    ]

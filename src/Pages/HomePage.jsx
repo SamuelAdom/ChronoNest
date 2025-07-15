@@ -12,6 +12,7 @@ import Compare from '../Components/Compare'
 import Blog from '../Components/Blog'
 import LogoGrid from '../Components/LogoGrid'
 import About from '../Components/About'
+import FeatureSection from '../Components/FeatureSection'
 
 const HomePage = () => {
   return (
@@ -31,6 +32,7 @@ const HomePage = () => {
    <Blog/>
    <LogoGrid/>
    <About/>
+   <FeatureSection/>
   
     </div>
   )
