@@ -8,7 +8,7 @@ const ProductCard = ({items}) => {
         className="h-full w-full object-contain mb-4 cursor-pointer"
       />
 
-      <h3 className="text-lg font-semibold">{items.name}</h3>
+      <h3 className="text-lg font-mono">{items.name}</h3>
       <p className="text-gray-600 mt-1 text-base">${items.price}</p>
 
       <button

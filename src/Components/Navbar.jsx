@@ -7,8 +7,8 @@ export default () => {
 
   // Replace javascript:void(0) paths with your paths
   const navigation = [
-    { title: "HOME", path: "javascript:void(0)" },
-    { title: "SHOP", path: "javascript:void(0)" },
+    { title: "HOME", path: "/" },
+    { title: "SHOP", path: "/shop" },
     { title: "ABOUT", path: "javascript:void(0)" },
     { title: "NEWS", path: "javascript:void(0)" },
     { title: "CONTACT", path: "javascript:void(0)" },

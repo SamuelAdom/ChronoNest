@@ -8,6 +8,13 @@ import urban_luxury from './urban_luxury.png'
 import Sun from './Sun.jpg'
 import Brace from './Brace.jpg'
 import Sport_Watch from './Sport Watch.jpg'
+import Canyon_Harmony from './canyon_harmony.png'
+import Flare_Glaciers from './flare_glaciers.png'
+import Galactic_Gazers from './galactic_gazers.png'
+import Leather_Band from './leather_band.png'
+import Metro_Shadows from './metro_shadows.png'
+import Mirage_Dunes from './mirage_dunes.png'
+import Noble_Crest from './noble_crest.png'
 import Esquire from './Esquire.png'
 import GQ from './GQ.png'
 import Men_Health from './Mens_Health.png'
@@ -21,47 +28,92 @@ import icon_return from './icon-return.png'
 export const products = [
   {
     id: 1,
-    name: "Apex Guard",
+    name: "APEXGUARD",
     price: 249.99,
     image: apex_guard,
   },
   {
     id: 2,
-    name: "Chrono Triger",
+    name: "CHRONOTRIGER",
     price: 199.99,
     image: chrono_triger,
   },
   {
     id: 3,
-    name: "Digital Edge",
+    name: "DIGITALEDGE",
     price: 149.99,
     image: digital_edge,
   },
   {
     id: 4,
-    name: "Dyna Chrono",
+    name: "DYNACHRONO",
     price: 179.99,
     image: dyna_chrono,
   },
   {
     id: 5,
-    name: "Prestige Horizons",
+    name: "PRESTIGEHORIZONS",
     price: 299.99,
     image: prestige_horizons,
   },
   {
     id: 6,
-    name: "Smart Sync",
+    name: "SMARTSYNC",
     price: 129.99,
     image: smart_sync,
   },
   {
     id: 7,
-    name: "Urban Luxury",
+    name: "URBANLUXURY",
     price: 219.99,
     image: urban_luxury,
   },
+   {
+    id: 8,
+    name: "CANYONHARMONY",
+    price: 189.99,
+    image: Canyon_Harmony,
+  },
+  {
+    id: 9,
+    name: "FLAREGLACIERS",
+    price: 229.99,
+    image: Flare_Glaciers,
+  },
+  {
+    id: 10,
+    name: "GALACTICGAZERS",
+    price: 259.99,
+    image: Galactic_Gazers,
+  },
+  {
+    id: 11,
+    name: "LEATHERBAND",
+    price: 139.99,
+    image: Leather_Band,
+  },
+  {
+    id: 12,
+    name: "METROSHADOWS",
+    price: 199.99,
+    image: Metro_Shadows,
+  },
+  {
+    id: 13,
+    name: "MIRAGEDUNES",
+    price: 174.99,
+    image: Mirage_Dunes,
+  },
+  {
+    id: 14,
+    name: "NOBLECREST",
+    price: 289.99,
+    image: Noble_Crest,
+  },
+  
+  
 ]
+
 export const blog=[
    {
     id: 1,

@@ -34,7 +34,7 @@ const ProductRowCarousel = () => {
         ref={scrollRef}
         className="flex gap-6 overflow-x-auto scroll-smooth scrollbar-hide"
       >
-        {products.map((product) => (
+        {products.slice(0,7).map((product) => (
           <div
             key={product.id}
             className="w-80 bg-white rounded-xl shadow-md flex-shrink-0 p-4 text-center"
