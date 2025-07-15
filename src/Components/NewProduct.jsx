@@ -11,7 +11,7 @@ const NewProduct = () => {
         initial={{ opacity: 0, y: 40 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
-        transition={{ duration: 0.8 }}
+        transition={{ duration: 0.8, ease: 'easeOut' }}
       >
         <p className="text-md font-mono">Hand-Picked</p>
         <h1 className="text-4xl sm:text-6xl font-serif">Product Of The Week</h1>
@@ -20,15 +20,14 @@ const NewProduct = () => {
         </p>
       </motion.div>
 
-
+      {/* Image Section */}
       <motion.div
         className="relative w-full h-[500px] overflow-hidden"
         initial={{ opacity: 0, y: 40 }}
-        whileInView={{ opacity: 1, y: 3 }}
+        whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
-        transition={{ duration: 0.8, delay: 0.2 }}
+        transition={{ duration: 0.8, delay: 0.2, ease: 'easeOut' }}
       >
-
         <img
           src={Glasses}
           alt="product"
@@ -44,10 +43,10 @@ const NewProduct = () => {
 
           <div className="flex flex-col gap-4 w-full">
             <button className="w-full px-4 py-3 bg-white text-black rounded-sm lg:hover:border-2 cursor-pointer transition">
-           ADD TO CART
+              ADD TO CART
             </button>
             <button className="w-full px-4 py-3 border border-black rounded-sm cursor-pointer lg:hover:bg-black lg:hover:text-white transition">
-            VIEW PRODUCT
+              VIEW PRODUCT
             </button>
           </div>
         </div>
