@@ -4,7 +4,7 @@ import About_Background from "../assets/About_Background.jpg";
 const About = () => {
   return (
     <div
-      className="bg-cover bg-center  relative min-h-screen"
+      className="bg-cover bg-center bg-fixed  relative min-h-screen"
       style={{ backgroundImage: `url(${About_Background})` }}
     >
       <div className="flex flex-col justify-center items-center h-screen space-y-3.5">

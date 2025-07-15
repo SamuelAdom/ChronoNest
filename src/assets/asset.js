@@ -100,3 +100,23 @@ export const features = [
             desc: "All payments on our site are processed securely."
         }
     ]
+     export const testimonials = [
+        {
+            avatar: "https://api.uifaces.co/our-content/donated/xZ4wg2Xj.jpg",
+            name: "Martin escobar",
+            title: "Fashion Blogger",
+            quote: "These glasses elevated my entire look. They're now a staple in all my style shoots!"
+        },
+        {
+            avatar: "https://randomuser.me/api/portraits/women/79.jpg",
+            name: "Angela stian",
+            title: "Product designer",
+            quote: "The craftsmanship and detail are on another level absolutely essential for my everyday wear."
+        },
+        {
+            avatar: "https://randomuser.me/api/portraits/men/86.jpg",
+            name: "Karim ahmed",
+            title: "Creative Director",
+            quote: "I appreciate good design in all things, and this product nails both form and function."
+        },
+    ]

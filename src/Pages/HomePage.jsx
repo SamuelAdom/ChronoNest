@@ -13,6 +13,7 @@ import Blog from '../Components/Blog'
 import LogoGrid from '../Components/LogoGrid'
 import About from '../Components/About'
 import FeatureSection from '../Components/FeatureSection'
+import TestimonialSection from '../Components/TestimonialSection'
 
 const HomePage = () => {
   return (
@@ -33,6 +34,7 @@ const HomePage = () => {
    <LogoGrid/>
    <About/>
    <FeatureSection/>
+   <TestimonialSection/>
   
     </div>
   )
