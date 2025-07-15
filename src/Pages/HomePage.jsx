@@ -11,6 +11,7 @@ import NewsLetter from '../Components/NewsLetter'
 import Compare from '../Components/Compare'
 import Blog from '../Components/Blog'
 import LogoGrid from '../Components/LogoGrid'
+import About from '../Components/About'
 
 const HomePage = () => {
   return (
@@ -29,6 +30,7 @@ const HomePage = () => {
    <Compare/>
    <Blog/>
    <LogoGrid/>
+   <About/>
   
     </div>
   )

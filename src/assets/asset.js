@@ -12,6 +12,7 @@ import Esquire from './Esquire.png'
 import GQ from './GQ.png'
 import Men_Health from './Mens_Health.png'
 import Vogue from './Vogue.png'
+import About_Background from './About_Background.jpg'
 
 
 export const products = [
