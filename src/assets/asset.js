@@ -23,6 +23,7 @@ import About_Background from './About_Background.jpg'
 import icon_delivery from './icon_delivery.png'
 import icon_payment from './icon-payment.png'
 import icon_return from './icon-return.png'
+import About_Banner from './About-Banner.jpg'
 
 
 export const products = [
