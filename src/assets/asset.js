@@ -15,15 +15,11 @@ import Leather_Band from './leather_band.png'
 import Metro_Shadows from './metro_shadows.png'
 import Mirage_Dunes from './mirage_dunes.png'
 import Noble_Crest from './noble_crest.png'
-import Esquire from './Esquire.png'
-import GQ from './GQ.png'
-import Men_Health from './Mens_Health.png'
-import Vogue from './Vogue.png'
-import About_Background from './About_Background.jpg'
 import icon_delivery from './icon_delivery.png'
 import icon_payment from './icon-payment.png'
 import icon_return from './icon-return.png'
-import About_Banner from './About-Banner.jpg'
+
+
 
 
 export const products = [
