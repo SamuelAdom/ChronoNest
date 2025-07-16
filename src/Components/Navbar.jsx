@@ -10,7 +10,7 @@ export default () => {
     { title: "HOME", path: "/" },
     { title: "SHOP", path: "/shop" },
     { title: "ABOUT", path: "/about-us" },
-    { title: "NEWS", path: "javascript:void(0)" },
+    { title: "NEWS", path: "/news" },
     { title: "CONTACT", path: "javascript:void(0)" },
   ];
 
@@ -83,9 +83,9 @@ export default () => {
                   key={idx}
                   className="text-gray-700 lg:text-lg hover:text-gray-900"
                 >
-                  <a href={item.path} className="block">
+                  <Link to={item.path} className="block">
                     {item.title}
-                  </a>
+                  </Link>
                 </li>
               );
             })}

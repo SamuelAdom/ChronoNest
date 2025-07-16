@@ -3,6 +3,7 @@ import About_Banner from "../assets/About-Banner.jpg";
 import About_Fashion from "../assets/About_Fashion.jpg";
 import Craftman from "../assets/Craftman.jpg";
 import Variety from "../assets/Variety.jpg";
+import TestimonialSection from "../Components/TestimonialSection";
 
 const AboutPage = () => {
   return (
@@ -100,6 +101,7 @@ const AboutPage = () => {
         </p>
         <button className="bg-black text-white py-3 px-7 rounded-sm lg:hover:bg-transparent lg:hover:text-black hover:border-2 duration-300 transition-all cursor-pointer">JOIN NOW</button>
       </div>
+      <div className="mt-8"><TestimonialSection/></div>
     </>
   );
 };

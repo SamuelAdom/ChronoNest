@@ -4,6 +4,7 @@ import HomePage from './pages/HomePage'
 import ErrorPage from './Pages/ErrorPage'
 import ShopPage from './Pages/ShopPage'
 import AboutPage from './Pages/AboutPage'
+import NewsPage from './Pages/NewsPage'
 import MainLayout from './Layouts/MainLayout'
 
 const App = () => {
@@ -14,6 +15,7 @@ const App = () => {
         <Route path='/' element={<HomePage/>}></Route>
         <Route path='/shop' element={<ShopPage/>}></Route>
         <Route path='/about-us' element={<AboutPage/>}></Route>
+        <Route path='/news' element={<NewsPage/>}></Route>
         <Route path='*' element={<ErrorPage/>}></Route>
         </Route>
       </Routes>

@@ -130,6 +130,30 @@ export const blog=[
     description: "Style Wrapped Around Your Wrist: The Modern Bracelet",
     image:Brace,
   },
+   {
+    id:4,
+    category: "Blog | Bracelets",
+    description: "Style Wrapped Around Your Wrist: The Modern Bracelet",
+    image:Brace,
+  },
+   {
+    id:5,
+    category: "Blog | Bracelets",
+    description: "Style Wrapped Around Your Wrist: The Modern Bracelet",
+    image:Brace,
+  },
+   {
+    id:6,
+    category: "Blog | Bracelets",
+    description: "Style Wrapped Around Your Wrist: The Modern Bracelet",
+    image:Brace,
+  },
+   {
+    id:7,
+    category: "Blog | Bracelets",
+    description: "Style Wrapped Around Your Wrist: The Modern Bracelet",
+    image:Brace,
+  },
 ]
 export const features = [
         {
