@@ -5,6 +5,7 @@ import ErrorPage from './Pages/ErrorPage'
 import ShopPage from './Pages/ShopPage'
 import AboutPage from './Pages/AboutPage'
 import NewsPage from './Pages/NewsPage'
+import BlogPage from './Pages/BlockPage'
 import MainLayout from './Layouts/MainLayout'
 
 const App = () => {
@@ -16,6 +17,7 @@ const App = () => {
         <Route path='/shop' element={<ShopPage/>}></Route>
         <Route path='/about-us' element={<AboutPage/>}></Route>
         <Route path='/news' element={<NewsPage/>}></Route>
+        <Route path='/blog/:ID' element={<BlogPage/>}></Route>
         <Route path='*' element={<ErrorPage/>}></Route>
         </Route>
       </Routes>
