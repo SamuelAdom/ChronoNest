@@ -9,7 +9,7 @@ export default () => {
   const navigation = [
     { title: "HOME", path: "/" },
     { title: "SHOP", path: "/shop" },
-    { title: "ABOUT", path: "javascript:void(0)" },
+    { title: "ABOUT", path: "/about-us" },
     { title: "NEWS", path: "javascript:void(0)" },
     { title: "CONTACT", path: "javascript:void(0)" },
   ];
