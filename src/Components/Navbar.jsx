@@ -1,11 +1,12 @@
-import { useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { FaShoppingCart } from "react-icons/fa";
+import { ShopContext } from "../Context/ShopContext";
 
 export default () => {
   const [state, setState] = useState(false);
+  const{getTotal}=useContext(ShopContext)
 
-  // Replace javascript:void(0) paths with your paths
   const navigation = [
     { title: "HOME", path: "/" },
     { title: "SHOP", path: "/shop" },
@@ -100,7 +101,7 @@ className="text-gray-700 text-base lg:text-lg lg:hover:underline underline-offse
                 <FaShoppingCart />
               </Link>
               <div className=" flex items-center justify-center text-sm bg-red-500 text-white text-center w-4 h-4 rounded-full">
-                0
+              {getTotal()}
               </div>
             </div>
             <Link

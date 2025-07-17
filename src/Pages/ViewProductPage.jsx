@@ -1,16 +1,18 @@
-import React, { useEffect, useState } from 'react'
+import React, { useContext, useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
 import { products } from '../assets/asset'
 import AddButton from '../Components/AddButton'
 import RemoveButton from '../Components/RemoveButton'
+import { ShopContext } from '../Context/ShopContext'
 
 const ViewProductPage = () => {
+    const {getTotal}=useContext(ShopContext)
     const{ID}=useParams()
     const[itemInfo, setItemInfo]=useState({})
     useEffect(()=>{
         const getItem=()=>{
               setItemInfo(products.find(item=>item.id===Number(ID)))
-              console.log(setItemInfo)
+          
         }
         if(ID){
             getItem()
@@ -31,9 +33,9 @@ const ViewProductPage = () => {
         <p className='text-lg font-light'>{itemInfo.description}</p>
     </div>
     <div className='flex items-center gap-2.5 mt-6'>
-      <RemoveButton/>
-      <p className='font-mono text-lg'>0</p>
-        <AddButton/>
+      <RemoveButton itemInfo={itemInfo}/>
+      <p className='font-mono text-lg'>{getTotal()}</p>
+        <AddButton itemInfo={itemInfo}/>
         <button className='bg-black text-white px-5 py-2 cursor-pointer lg:hover:bg-amber-400 hover:text-white transition-all duration-500'>ADD TO CART</button>
 
     </div>

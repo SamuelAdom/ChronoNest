@@ -1,8 +1,10 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import { ShopContext } from '../Context/ShopContext';
 
-const Button = () => {
+const Button = ({itemInfo}) => {
+  const{removeFromCart}=useContext(ShopContext)
   return (
-    <button className="group cursor-pointer outline-none hover:rotate-90 duration-300" title="Add New">
+    <button onClick={()=>{removeFromCart(itemInfo.id)}} className="group cursor-pointer outline-none hover:rotate-90 duration-300" title="Add New">
     <svg
   className="stroke-yellow-400 fill-none group-hover:fill-yellow-800 group-active:stroke-yellow-200 group-active:fill-yellow-600 group-active:duration-0 duration-300"
   viewBox="0 0 24 24"
