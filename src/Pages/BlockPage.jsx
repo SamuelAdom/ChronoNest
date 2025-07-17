@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { blog } from "../assets/asset";
+import CommentBox from "../Components/CommentBox";
 import { useParams } from "react-router-dom";
 
 const BlockPage = () => {
@@ -45,6 +46,7 @@ const BlockPage = () => {
             <hr/>
 
           </div>
+          <CommentBox/>
         </div>
       </>
     )

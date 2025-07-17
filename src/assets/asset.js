@@ -18,7 +18,9 @@ import Noble_Crest from './noble_crest.png'
 import icon_delivery from './icon_delivery.png'
 import icon_payment from './icon-payment.png'
 import icon_return from './icon-return.png'
-import { details, summary } from 'framer-motion/client'
+import Belt from './Belt.jpg'
+import Tie from './Tie.jpg'
+import Cuflinks from './Cuflinks.jpg'
 
 
 
@@ -161,30 +163,55 @@ export const blog=[
         summary:"Women’s bracelets have come a long way, offering endless possibilities for style expression. From casual to dapper, they can effortlessly enhance any outfit, whether it’s a relaxed weekend ensemble or a formal suit. Embrace the versatility of women’s bracelets by experimenting with different styles, materials, and stacking techniques. Let your wrist become a canvas for self-expression, adding that extra touch of style and sophistication to your overall appearance."
     
   },
-   {
-    id:4,
-    category: "Blog | Bracelets",
-    description: "Style Wrapped Around Your Wrist: The Modern Bracelet",
-    image:Brace,
-  },
-   {
-    id:5,
-    category: "Blog | Bracelets",
-    description: "Style Wrapped Around Your Wrist: The Modern Bracelet",
-    image:Brace,
-  },
-   {
-    id:6,
-    category: "Blog | Bracelets",
-    description: "Style Wrapped Around Your Wrist: The Modern Bracelet",
-    image:Brace,
-  },
-   {
-    id:7,
-    category: "Blog | Bracelets",
-    description: "Style Wrapped Around Your Wrist: The Modern Bracelet",
-    image:Brace,
-  },
+ {
+  id: 4,
+  category: "Blog | Accessories",
+  description: "Style Wrapped Around Your Waist: The Modern Belt",
+  image: Belt,
+  intro: "Belts have long been more than just functional accessories—they're essential style elements that define and elevate an outfit. Once used strictly for holding up trousers, belts today serve as fashion statements for both men and women. Whether you're dressing for the office, a night out, or a casual weekend, the right belt can tie your look together effortlessly. In this blog post, we’ll dive into the world of modern belts, their styles, materials, and how to wear them with confidence.",
+  heading: "FUNCTIONALITY MEETS STYLE",
+  des: "Belts come in a wide array of materials and designs, from classic leather dress belts to woven or fabric styles suited for casual wear. Choosing the right belt means considering not only function but also the tone of your outfit. A sleek leather belt with a polished buckle can instantly sharpen a business look, while a rugged canvas belt adds charm to weekend wear.",
+  sub: "TIPS FOR SELECTING THE RIGHT BELT",
+  details: "Here are some practical tips for picking the perfect belt for any occasion:",
+  features: "MATCHING",
+  points: "Always match your belt with your shoes for a clean and cohesive look—especially in formal settings. For example, pair a black leather belt with black shoes, and a brown belt with brown or tan footwear.",
+  final: "CONCLUSION",
+  summary: "Belts are essential accessories that offer both function and fashion. By choosing the right style, material, and fit, you can make a subtle yet powerful impact on your overall look. Whether you're dressing up or keeping it casual, the right belt completes your outfit and showcases your sense of style."
+},
+
+  {
+  id: 5,
+  category: "Blog | Accessories",
+  description: "Knotted Elegance: The Timeless Appeal of the Modern Tie",
+  image: Tie,
+  intro: "A tie is more than just a piece of fabric—it’s a symbol of refinement, sophistication, and personal style. Once reserved strictly for formal occasions, modern ties have evolved to suit various settings, from professional environments to creative casual ensembles. In this blog post, we explore how the tie remains a defining accessory in a man’s wardrobe, and how to wear it with confidence and flair in today’s fashion landscape.",
+  heading: "FABRIC AND PATTERN VARIETY",
+  des: "Modern ties come in a wide range of materials including silk, wool, cotton, and linen. Each fabric serves a unique purpose—silk for elegance, wool for warmth, and cotton or linen for relaxed, breathable looks. Patterns also add personality, from classic stripes and solids to bold florals and abstract prints that let you stand out in a crowd.",
+  sub: "TYING IT TO OCCASION",
+  details: "Choosing the right tie depends largely on the occasion. Here’s how to make the right pick:",
+  features: "FORMAL VS CASUAL",
+  points: "For business or formal events, opt for a silk tie in a solid or subtle pattern. For casual outings or creative settings, explore knitted ties, slimmer widths, or playful patterns that reflect your personality.",
+  final: "CONCLUSION",
+  summary: "Ties continue to be an essential accessory that bridges tradition and modernity. Whether you’re aiming for a sharp professional look or a relaxed creative vibe, the right tie enhances your outfit and speaks volumes about your style. So go ahead—knot up with confidence and let your tie do the talking."
+},
+
+  {
+  id: 6,
+  category: "Blog | Accessories",
+  description: "The Finishing Touch: Elevate Your Style with Cufflinks",
+  image: Cuflinks,
+  intro: "Cufflinks are the unsung heroes of men’s formalwear—small in size but big in impact. These elegant accessories add a layer of sophistication and personal expression to dress shirts, making them a staple for formal events and a stylish choice for the well-dressed gentleman. In this blog post, we explore how cufflinks can elevate your outfit and reflect your personality, whether you’re at a black-tie event or a business meeting.",
+  heading: "STYLE AND MATERIALS",
+  des: "Cufflinks come in a variety of styles, shapes, and materials—from classic silver and gold to enamel, glass, wood, and novelty designs. Choose traditional metal cufflinks for timeless elegance, or opt for themed or monogrammed ones to express your individuality. The choice of material and design can either subtly complement your outfit or become a conversation starter.",
+  sub: "WHEN AND HOW TO WEAR CUFFLINKS",
+  details: "Cufflinks are typically worn with French cuff (double cuff) shirts. Here's when and how to wear them effectively:",
+  features: "FORMAL AND PROFESSIONAL OCCASIONS",
+  points: "Wear cufflinks at weddings, business meetings, galas, or any event that calls for a polished, professional look. Match them with your watch, tie bar, or belt buckle for a cohesive style.",
+  final: "CONCLUSION",
+  summary: "Cufflinks are more than functional fasteners—they're an opportunity to make a statement. From traditional elegance to bold personality pieces, the right cufflinks can enhance your outfit and showcase your attention to detail. Don’t underestimate the power of the finishing touch—add a pair of cufflinks and complete your look with class."
+}
+
+   
 ]
 export const features = [
         {
