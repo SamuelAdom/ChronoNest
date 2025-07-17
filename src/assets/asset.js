@@ -29,7 +29,7 @@ export const products = [
     name: "APEXGUARD",
     price: 249.99,
     image: apex_guard,
-    category: "watch",
+    category: "WATCH",
     description: "ApexGuard blends premium materials with cutting-edge design, offering unmatched durability and elegance for everyday wear."
   },
   {
@@ -37,7 +37,7 @@ export const products = [
     name: "CHRONOTRIGER",
     price: 199.99,
     image: chrono_triger,
-    category: "watch",
+    category: "WATCH",
     description: "ChronoTriger is a statement of precision and style, ideal for the modern professional who values functionality and sophistication."
   },
   {
@@ -45,7 +45,7 @@ export const products = [
     name: "DIGITALEDGE",
     price: 149.99,
     image: digital_edge,
-    category: "watch",
+    category: "WATCH",
     description: "DigitalEdge delivers smart innovation in a sleek form, featuring modern digital features within a minimalist design."
   },
   {
@@ -53,7 +53,7 @@ export const products = [
     name: "DYNACHRONO",
     price: 179.99,
     image: dyna_chrono,
-    category: "watch",
+    category: "WATCH",
     description: "DynaChrono captures dynamic design with chronograph functionality, perfect for those who demand performance and flair."
   },
   {
@@ -61,7 +61,7 @@ export const products = [
     name: "PRESTIGEHORIZONS",
     price: 299.99,
     image: prestige_horizons,
-    category: "watch",
+    category: "WATCH",
     description: "PrestigeHorizons represents luxury and precision, crafted for those who appreciate timeless design and superior craftsmanship."
   },
   {
@@ -69,7 +69,7 @@ export const products = [
     name: "SMARTSYNC",
     price: 129.99,
     image: smart_sync,
-    category: "watch",
+    category: "WATCH",
     description: "SmartSync connects you to the future with smart technology and seamless style, making it ideal for tech-savvy trendsetters."
   },
   {
@@ -77,7 +77,7 @@ export const products = [
     name: "URBANLUXURY",
     price: 219.99,
     image: urban_luxury,
-    category: "watch",
+    category: "WATCH",
     description: "UrbanLuxury combines urban fashion with luxury touches, designed for city dwellers who embrace both comfort and class."
   },
   {
@@ -85,7 +85,7 @@ export const products = [
     name: "CANYONHARMONY",
     price: 189.99,
     image: Canyon_Harmony,
-    category: "watch",
+    category: "WATCH",
     description: "CanyonHarmony draws inspiration from nature's balance, offering an earthy elegance with a rugged yet refined design."
   },
   {
@@ -93,7 +93,7 @@ export const products = [
     name: "FLAREGLACIERS",
     price: 229.99,
     image: Flare_Glaciers,
-    category: "watch",
+    category: "WATCH",
     description: "FlareGlaciers is a bold timepiece with icy aesthetics and fiery performance — built to impress in any environment."
   },
   {
@@ -101,7 +101,7 @@ export const products = [
     name: "GALACTICGAZERS",
     price: 259.99,
     image: Galactic_Gazers,
-    category: "watch",
+    category: "WATCH",
     description: "GalacticGazers inspires exploration with a futuristic design and a galaxy-inspired dial that captures attention instantly."
   },
   {
@@ -109,7 +109,7 @@ export const products = [
     name: "LEATHERBAND",
     price: 139.99,
     image: Leather_Band,
-    category: "watch",
+    category: "WATCH",
     description: "LeatherBand is a classic reimagined — genuine leather meets modern design for an everyday companion with timeless appeal."
   },
   {
@@ -117,7 +117,7 @@ export const products = [
     name: "METROSHADOWS",
     price: 199.99,
     image: Metro_Shadows,
-    category: "watch",
+    category: "WATCH",
     description: "MetroShadows embodies sleek, shadowy sophistication, tailored for night owls and metro style aficionados alike."
   },
   {
@@ -125,7 +125,7 @@ export const products = [
     name: "MIRAGEDUNES",
     price: 174.99,
     image: Mirage_Dunes,
-    category: "watch",
+    category: "WATCH",
     description: "MirageDunes offers subtle desert tones and soft contours, bringing a sense of calm and style to your wrist."
   },
   {
@@ -133,7 +133,7 @@ export const products = [
     name: "NOBLECREST",
     price: 289.99,
     image: Noble_Crest,
-    category: "watch",
+    category: "WATCH",
     description: "NobleCrest is crafted for the elite — a bold yet elegant design that speaks of heritage, power, and refined taste."
   },
 ];
