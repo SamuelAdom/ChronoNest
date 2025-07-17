@@ -18,6 +18,7 @@ import Noble_Crest from './noble_crest.png'
 import icon_delivery from './icon_delivery.png'
 import icon_payment from './icon-payment.png'
 import icon_return from './icon-return.png'
+import { details, summary } from 'framer-motion/client'
 
 
 
@@ -117,18 +118,48 @@ export const blog=[
     category: "Blog | Watches",
     description: "Time in Motion: The Power of a Modern Sport Watch",
     image: Sport_Watch,
+    intro:"For the active gentleman who enjoys sports, fitness, and adventure, a sports watch is more than just a timekeeping device; it’s a reliable companion that combines functionality with style. Designed to withstand the rigors of physical activities, sports watches offer a range of features and robust construction that make them the perfect choice for athletes, outdoor enthusiasts, and those with an active lifestyle. In this blog post, we will explore the world of sports watches, highlighting their exceptional functionality and stylish design elements that cater to the needs of the modern active gentleman.",
+    heading:"DURABILITY AND WATER RESISTANCE",
+    des:"Sports watches are built to endure tough conditions, making durability a key feature. Look for watches with rugged cases made from materials like stainless steel, titanium, or high-grade polymers that can withstand impacts and resist scratches. Additionally, water resistance is crucial for water-based activities. Choose a sports watch with a suitable water resistance rating to ensure it can handle swimming, diving, or other water sports.",
+     sub:"ADVANCED TIMEKEEPING FEATURES",
+    details:"Sports watches often offer advanced timekeeping features to enhance functionality. Some popular features include:",
+  features:"CHRONOGRAPH",
+     points:"A chronograph function allows you to measure elapsed time with stopwatch-like precision. It is particularly useful for timing workouts, runs, or races.",
+     final:"CONCLUSION",
+     summary:"Sports watches are the ultimate companions for the active gentleman, providing a perfect blend of functionality and style. Whether you’re training for a marathon, exploring the great outdoors, or simply leading an active lifestyle, a sports watch offers the durability, features, and versatility you need. Embrace the power of sports watches, and let them be a symbol of your adventurous spirit, while keeping you on time and on track for success in both sports and style."
   },
    {
     id: 2,
     category: "Blog | Sunglasses",
     description: "See the Sun Differently: Bold Sunglasses for Every Look",
     image: Sun,
+    intro:"Sunglasses are more than just a fashion statement; they are a practical and stylish accessory that can instantly enhance your look while providing essential protection for your eyes. However, not all sunglasses are created equal, and finding the perfect pair that complements your face shape can make a significant difference in your overall appearance. In this blog post, we will explore the power of sunglasses and guide you in finding the ideal shades that best suit your unique face shape.",
+    heading:"Understanding Face Shapes",
+    des:"Before delving into sunglasses styles, it’s important to identify your face shape. Here are the main face shapes and their distinctive characteristics:",
+    sub:"OVAL",
+    details:"Oval faces are well-balanced and versatile, featuring balanced proportions and gently rounded contours.",
+     features:"ROUND",
+     points:"Round faces have softer, curved lines with equal width and length. They lack prominent angles and often have full cheeks.",
+         final:"CONCLUSION",
+         summary:"Sunglasses are more than a fashion accessory; they are an opportunity to enhance your facial features and express your personal style. By understanding your face shape and choosing sunglasses"
+
+   
   },
    {
     id:3,
     category: "Blog | Bracelets",
     description: "Style Wrapped Around Your Wrist: The Modern Bracelet",
     image:Brace,
+    intro:"When it comes to women’s accessories, bracelets have become a popular choice for those looking to add a touch of style and personality to their outfits. Once associated solely with casual attire, women’s bracelets have evolved to become versatile accessories that can effortlessly transition from a laid-back look to a sophisticated and dapper ensemble. In this blog post, we’ll explore the versatility of women’s bracelets, discussing different styles, materials, and ways to incorporate them into various outfits.",
+    heading:"Embrace the Casual Vibes",
+    des:"Men’s bracelets are perfect for adding a relaxed and effortless flair to casual outfits. Here are a few ways to rock them in a more laid-back setting:",
+    sub:"Leather Bracelets",
+    details:"Leather bracelets exude a rugged and masculine appeal. Pair them with jeans, a simple t-shirt, and boots for a stylish yet casual look.",
+    features:"Beaded Bracelets",
+    points:"Beaded bracelets, crafted from materials such as wood, stone, or metal beads, lend a bohemian touch to your ensemble. Combine them with shorts, a linen shirt, and sandals for a cool and beach-ready appearance.",
+        final:"CONCLUSION",
+        summary:"Women’s bracelets have come a long way, offering endless possibilities for style expression. From casual to dapper, they can effortlessly enhance any outfit, whether it’s a relaxed weekend ensemble or a formal suit. Embrace the versatility of women’s bracelets by experimenting with different styles, materials, and stacking techniques. Let your wrist become a canvas for self-expression, adding that extra touch of style and sophistication to your overall appearance."
+    
   },
    {
     id:4,

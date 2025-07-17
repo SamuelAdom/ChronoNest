@@ -9,11 +9,11 @@ const AboutPage = () => {
   return (
     <>
       <div
-        className="relative min-h-screen  bg-cover bg-center"
+        className="relative h-80 lg:h-screen md:h-150  bg-cover bg-center"
         style={{ backgroundImage: `url(${About_Banner})` }}
       >
-        <div className="flex justify-center items-center h-screen">
-          <h1 className="text-white text-6xl font-extrabold">ABOUT</h1>
+        <div className="flex justify-center">
+          <h1 className="text-white text-6xl mt-25 md:mt-50 lg:mt-60 font-extrabold">ABOUT</h1>
         </div>
       </div>
       <div className="flex flex-col justify-center items-center text-center space-y-15 mt-8">
