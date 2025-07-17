@@ -2,7 +2,9 @@ import React from 'react'
 import { blog } from '../assets/asset'
 import { Link } from 'react-router-dom'
 
+
 const Blog = () => {
+    
   return (
      <div className="bg-gray-100 border">
         <section className="py-14">
@@ -31,7 +33,11 @@ const Blog = () => {
                                           <p className="text-yellow-600">{item.category}</p>
                                         <h1 className="text-3xl font-serif">{item.description}</h1>
                                         <div className='mt-2'>
-                                            <Link to={`/blog/${item.id}`}><button className="bg-transparent text-black border-2 border-black px-5 py-2 hover:border-3 cursor-pointer" >READ MORE</button></Link>
+                                          <Link to={`/blog/${item.id}`} onClick={() => window.scrollTo(0, 0)}>
+  <button className="bg-transparent text-black border-2 border-black px-5 py-2 hover:border-3 cursor-pointer">
+    READ MORE
+  </button>
+</Link>
                                         </div>
                                       
                                     </div>

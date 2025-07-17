@@ -11,7 +11,7 @@ export default () => {
     { title: "SHOP", path: "/shop" },
     { title: "ABOUT", path: "/about-us" },
     { title: "NEWS", path: "/news" },
-    { title: "CONTACT", path: "javascript:void(0)" },
+    { title: "CONTACT", path: "/contact" },
   ];
 
   useEffect(() => {
@@ -76,12 +76,13 @@ export default () => {
             state ? "block" : "hidden"
           } `}
         >
-          <ul className="justify-center items-center space-y-6 md:flex md:space-x-6 md:space-y-0">
+          <ul className="justify-center items-center space-y-6 md:flex md:space-x-6 md:space-y-0 ">
             {navigation.map((item, idx) => {
               return (
                 <li
                   key={idx}
-                  className="text-gray-700 lg:text-lg hover:text-gray-900"
+className="text-gray-700 text-base lg:text-lg lg:hover:underline underline-offset-6 transition-all duration-700"
+
                 >
                   <Link to={item.path} className="block">
                     {item.title}
