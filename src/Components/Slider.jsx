@@ -2,6 +2,7 @@ import { useRef } from 'react'
 import { products } from '../assets/asset'
 import{FaArrowRight} from 'react-icons/fa'
 import{FaArrowLeft} from 'react-icons/fa'
+import { Link } from 'react-router-dom'
 
 const ProductRowCarousel = () => {
   const scrollRef = useRef()
@@ -46,9 +47,10 @@ const ProductRowCarousel = () => {
             />
             <h3 className="text-lg font-semibold tracking-wide">{product.name.toUpperCase()}</h3>
             <p className="text-gray-600 mt-1">${product.price.toFixed(2)}</p>
-            <button className="mt-4 px-4 py-4 bg-black text-white rounded-sm lg:hover:bg-white lg:hover:text-black hover:border-1 transition cursor-pointer">
+            <Link to={`/product/${product.id}`}><button className="mt-4 px-4 py-4 bg-black text-white rounded-sm lg:hover:bg-white lg:hover:text-black hover:border-1 transition cursor-pointer">
               VIEW PRODUCT
             </button>
+            </Link>
           </div>
         ))}
       </div>

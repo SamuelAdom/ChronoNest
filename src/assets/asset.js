@@ -23,96 +23,121 @@ import Tie from './Tie.jpg'
 import Cuflinks from './Cuflinks.jpg'
 
 
-
-
 export const products = [
   {
     id: 1,
     name: "APEXGUARD",
     price: 249.99,
     image: apex_guard,
+    category: "watch",
+    description: "ApexGuard blends premium materials with cutting-edge design, offering unmatched durability and elegance for everyday wear."
   },
   {
     id: 2,
     name: "CHRONOTRIGER",
     price: 199.99,
     image: chrono_triger,
+    category: "watch",
+    description: "ChronoTriger is a statement of precision and style, ideal for the modern professional who values functionality and sophistication."
   },
   {
     id: 3,
     name: "DIGITALEDGE",
     price: 149.99,
     image: digital_edge,
+    category: "watch",
+    description: "DigitalEdge delivers smart innovation in a sleek form, featuring modern digital features within a minimalist design."
   },
   {
     id: 4,
     name: "DYNACHRONO",
     price: 179.99,
     image: dyna_chrono,
+    category: "watch",
+    description: "DynaChrono captures dynamic design with chronograph functionality, perfect for those who demand performance and flair."
   },
   {
     id: 5,
     name: "PRESTIGEHORIZONS",
     price: 299.99,
     image: prestige_horizons,
+    category: "watch",
+    description: "PrestigeHorizons represents luxury and precision, crafted for those who appreciate timeless design and superior craftsmanship."
   },
   {
     id: 6,
     name: "SMARTSYNC",
     price: 129.99,
     image: smart_sync,
+    category: "watch",
+    description: "SmartSync connects you to the future with smart technology and seamless style, making it ideal for tech-savvy trendsetters."
   },
   {
     id: 7,
     name: "URBANLUXURY",
     price: 219.99,
     image: urban_luxury,
+    category: "watch",
+    description: "UrbanLuxury combines urban fashion with luxury touches, designed for city dwellers who embrace both comfort and class."
   },
-   {
+  {
     id: 8,
     name: "CANYONHARMONY",
     price: 189.99,
     image: Canyon_Harmony,
+    category: "watch",
+    description: "CanyonHarmony draws inspiration from nature's balance, offering an earthy elegance with a rugged yet refined design."
   },
   {
     id: 9,
     name: "FLAREGLACIERS",
     price: 229.99,
     image: Flare_Glaciers,
+    category: "watch",
+    description: "FlareGlaciers is a bold timepiece with icy aesthetics and fiery performance — built to impress in any environment."
   },
   {
     id: 10,
     name: "GALACTICGAZERS",
     price: 259.99,
     image: Galactic_Gazers,
+    category: "watch",
+    description: "GalacticGazers inspires exploration with a futuristic design and a galaxy-inspired dial that captures attention instantly."
   },
   {
     id: 11,
     name: "LEATHERBAND",
     price: 139.99,
     image: Leather_Band,
+    category: "watch",
+    description: "LeatherBand is a classic reimagined — genuine leather meets modern design for an everyday companion with timeless appeal."
   },
   {
     id: 12,
     name: "METROSHADOWS",
     price: 199.99,
     image: Metro_Shadows,
+    category: "watch",
+    description: "MetroShadows embodies sleek, shadowy sophistication, tailored for night owls and metro style aficionados alike."
   },
   {
     id: 13,
     name: "MIRAGEDUNES",
     price: 174.99,
     image: Mirage_Dunes,
+    category: "watch",
+    description: "MirageDunes offers subtle desert tones and soft contours, bringing a sense of calm and style to your wrist."
   },
   {
     id: 14,
     name: "NOBLECREST",
     price: 289.99,
     image: Noble_Crest,
+    category: "watch",
+    description: "NobleCrest is crafted for the elite — a bold yet elegant design that speaks of heritage, power, and refined taste."
   },
-  
-  
-]
+];
+
 
 export const blog=[
    {

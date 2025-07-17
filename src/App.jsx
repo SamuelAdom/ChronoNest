@@ -7,6 +7,7 @@ import AboutPage from './Pages/AboutPage'
 import NewsPage from './Pages/NewsPage'
 import BlogPage from './Pages/BlockPage'
 import ContactPage from './Pages/ContactPage'
+import ViewProductPage from './Pages/ViewProductPage'
 import MainLayout from './Layouts/MainLayout'
 
 const App = () => {
@@ -19,6 +20,7 @@ const App = () => {
         <Route path='/about-us' element={<AboutPage/>}></Route>
         <Route path='/news' element={<NewsPage/>}></Route>
         <Route path='/contact' element={<ContactPage/>}></Route>
+        <Route path='/product/:ID' element={<ViewProductPage/>}></Route>
         <Route path='/blog/:ID' element={<BlogPage/>}></Route>
         <Route path='*' element={<ErrorPage/>}></Route>
         </Route>
