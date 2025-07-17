@@ -34,7 +34,7 @@ const ViewProductPage = () => {
       <RemoveButton/>
       <p className='font-mono text-lg'>0</p>
         <AddButton/>
-        <button className='bg-black text-white px-7 py-3 cursor-pointer lg:hover:bg-amber-400 hover:text-white transition-all duration-500'>ADD TO CART</button>
+        <button className='bg-black text-white px-5 py-2 cursor-pointer lg:hover:bg-amber-400 hover:text-white transition-all duration-500'>ADD TO CART</button>
 
     </div>
     <hr className='mt-8' />
