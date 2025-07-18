@@ -95,7 +95,7 @@ className="text-gray-700 text-base lg:text-lg lg:hover:underline underline-offse
           <div className="flex-1 gap-x-6 items-center justify-end mt-6 space-y-6 md:flex md:space-y-0 md:mt-0">
             <div className="flex items-center gap-2.5">
               <Link
-                to="javascript:void(0)"
+                to={'/cart'}
                 className="block text-lg text-gray-700 hover:text-gray-900"
               >
                 <FaShoppingCart />

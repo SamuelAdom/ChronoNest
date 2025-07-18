@@ -29,16 +29,16 @@ setCartItems((prev)=>{
 
 })
   }
-  const getTotalAmount=()=>{
-    let totalAmount=0
-    for(const item in cartItems){
-      if(cartItems[item]>0){
-        let itemInfo=products.find((product)=>product.id===Number(item))
-        totalAmount+=itemInfo.price*cartItems[item]
-      }
-
+const getTotalAmount = () => {
+  let totalAmount = 0;
+  for (const item in cartItems) {
+    if (cartItems[item] > 0) {
+      let itemInfo = products.find((product) => product.id === Number(item));
+      totalAmount += itemInfo.price * cartItems[item];
     }
   }
+  return totalAmount;
+};
   const getTotal=()=>{
     let total=0;
     for(const item in cartItems){

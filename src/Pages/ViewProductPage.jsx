@@ -4,9 +4,10 @@ import { products } from '../assets/asset'
 import AddButton from '../Components/AddButton'
 import RemoveButton from '../Components/RemoveButton'
 import { ShopContext } from '../Context/ShopContext'
+import { Link } from 'react-router-dom'
 
 const ViewProductPage = () => {
-    const {getTotal}=useContext(ShopContext)
+    const {getTotal,cartItems}=useContext(ShopContext)
     const{ID}=useParams()
     const[itemInfo, setItemInfo]=useState({})
     useEffect(()=>{
@@ -34,9 +35,10 @@ const ViewProductPage = () => {
     </div>
     <div className='flex items-center gap-2.5 mt-6'>
       <RemoveButton itemInfo={itemInfo}/>
-      <p className='font-mono text-lg'>{getTotal()}</p>
+   <p className='font-mono text-lg'>{cartItems[itemInfo.id] || 0}</p>
+
         <AddButton itemInfo={itemInfo}/>
-        <button className='bg-black text-white px-5 py-2 cursor-pointer lg:hover:bg-amber-400 hover:text-white transition-all duration-500'>ADD TO CART</button>
+       <Link to={'/cart'}> <button className='bg-black text-white px-5 py-2 cursor-pointer lg:hover:bg-amber-400 hover:text-white transition-all duration-500'>ADD TO CART</button></Link>
 
     </div>
     <hr className='mt-8' />
