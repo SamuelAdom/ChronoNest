@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import { ShopContext } from "../Context/ShopContext";
 import { products } from "../assets/asset";
 import { FaPlusCircle, FaMinusCircle } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Cart = () => {
   const { cartItems, addToCart, removeFromCart, getTotalAmount } = useContext(ShopContext);
@@ -78,9 +79,9 @@ const Cart = () => {
           <span className="font-extrabold">Total</span>
          <span>${getTotalAmount().toFixed(2)}</span>
         </div>
-        <button className="mt-4 w-full bg-black text-white py-3 rounded hover:border-2 lg:hover:bg-transparent lg:hover:text-black cursor-pointer transition">
+       <Link to={"/check-out"}> <button className="mt-4 w-full bg-black text-white py-3 rounded hover:border-2 lg:hover:bg-transparent lg:hover:text-black cursor-pointer transition">
           PROCEED TO CHECKOUT
-        </button>
+        </button></Link>
       </div>
     </div>
   );
