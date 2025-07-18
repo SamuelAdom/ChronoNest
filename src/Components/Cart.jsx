@@ -4,7 +4,7 @@ import { products } from "../assets/asset";
 import { FaPlusCircle, FaMinusCircle } from "react-icons/fa";
 
 const Cart = () => {
-  const { cartItems, addToCart, removeFromCart, getTotal,getTotalAmount } = useContext(ShopContext);
+  const { cartItems, addToCart, removeFromCart, getTotalAmount } = useContext(ShopContext);
 
   const cartProductList = products.filter((item) => cartItems[item.id] > 0);
 
@@ -64,22 +64,22 @@ const Cart = () => {
       </div>
 
 
-      <div className="w-full lg:w-1/3 border rounded-lg shadow-md p-6 bg-white">
+      <div className="w-full lg:w-1/3 border  shadow-md p-6 bg-white">
         <h2 className="text-lg font-serif mb-4">CART TOTALS</h2>
         <div className="flex justify-between py-2 border-b">
-          <span>Subtotal</span>
-     <span>${getTotalAmount().toFixed(2)}</span>
+          <span className="font-mono">Subtotal</span>
+     <span className="font-mono">${getTotalAmount().toFixed(2)}</span>
         </div>
         <div className="flex justify-between py-2 border-b">
-          <span>Delivery</span>
+          <span className="font-mono">Delivery</span>
           <span className="text-green-600">FREE</span>
         </div>
         <div className="flex justify-between py-4 text-lg font-bold">
-          <span>Total</span>
+          <span className="font-extrabold">Total</span>
          <span>${getTotalAmount().toFixed(2)}</span>
         </div>
-        <button className="mt-4 w-full bg-black text-white py-3 rounded hover:bg-gray-800 transition">
-          Proceed to Checkout
+        <button className="mt-4 w-full bg-black text-white py-3 rounded hover:border-2 lg:hover:bg-transparent lg:hover:text-black cursor-pointer transition">
+          PROCEED TO CHECKOUT
         </button>
       </div>
     </div>
