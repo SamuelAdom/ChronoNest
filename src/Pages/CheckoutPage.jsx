@@ -1,4 +1,7 @@
 import { useState } from "react";
+import Shipping from "../Components/Shipping";
+import Payment from "../Components/Payment";
+import Reviews from "../Components/Reviews";
 
 export default function Stepper() {
   const [steps, setStep] = useState({
@@ -14,7 +17,7 @@ export default function Stepper() {
   };
 
   return (
-    <div className="max-w-2xl mx-auto px-4 md:px-0">
+    <div className="max-w-6xl mx-auto px-4 md:px-0">
       {/* Stepper UI */}
       <ul
         aria-label="Steps"
@@ -90,25 +93,22 @@ export default function Stepper() {
       </ul>
 
       {/* Step UI Content */}
-      <div className="mt-8 p-4 border rounded bg-gray-50">
+      <div className=" mt-8 p-4">
         {steps.currentStep === 1 && (
           <div>
-            <h2 className="text-xl font-bold mb-2">Profile Info</h2>
-            <p>Enter your name, age, and gender here.</p>
+         <Shipping/>
           </div>
         )}
 
         {steps.currentStep === 2 && (
           <div>
-            <h2 className="text-xl font-bold mb-2">Contact Details</h2>
-            <p>Phone number, address, and email form goes here.</p>
+           <Payment/>
           </div>
         )}
 
         {steps.currentStep === 3 && (
           <div>
-            <h2 className="text-xl font-bold mb-2">Identity Verification</h2>
-            <p>Upload your ID and fill in personal details here.</p>
+        <Reviews/>
           </div>
         )}
 
