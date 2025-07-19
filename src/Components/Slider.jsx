@@ -40,14 +40,16 @@ const ProductRowCarousel = () => {
             key={product.id}
             className="w-80 bg-white rounded-xl shadow-md flex-shrink-0 p-4 text-center"
           >
+            <Link to={`/product/${product.id}`} onClick={() => window.scrollTo(0, 0)}>
             <img
               src={product.image}
               alt={product.name}
               className="h-60 w-full object-contain mb-4 cursor-pointer"
             />
+            </Link>
             <h3 className="text-lg font-semibold tracking-wide">{product.name.toUpperCase()}</h3>
             <p className="text-gray-600 mt-1">${product.price.toFixed(2)}</p>
-            <Link to={`/product/${product.id}`}><button className="mt-4 px-4 py-4 bg-black text-white rounded-sm lg:hover:bg-white lg:hover:text-black hover:border-1 transition cursor-pointer">
+            <Link to={`/product/${product.id}`} onClick={() => window.scrollTo(0, 0)}><button className="mt-4 px-4 py-4 bg-black text-white rounded-sm lg:hover:bg-white lg:hover:text-black hover:border-1 transition cursor-pointer">
               VIEW PRODUCT
             </button>
             </Link>

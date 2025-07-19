@@ -51,7 +51,7 @@ const getTotalAmount = () => {
       return total
   }
   
-  console.log(cartItems)
+
   const contextValue={
     cartItems,
     addToCart,
