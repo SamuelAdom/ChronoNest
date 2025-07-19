@@ -1,5 +1,6 @@
 import React from 'react'
 import Video_Bk from '../assets/Video_Bk.mp4'
+import { Link } from 'react-router-dom'
 
 const Materials = () => {
   return (
@@ -24,9 +25,11 @@ const Materials = () => {
           <p className="text-base mb-6 leading-relaxed">
             We craft each timepiece with precision, using materials designed to last a lifetime. From stainless steel to fine leather, every detail counts.
           </p>
+         <Link to={"/about-us"} onClick={()=>window.scrollTo(0,0)}> 
           <button className="bg-transparent text-black border-2 border-black px-10 py-3  hover:border-3 cursor-pointer">
             About Us
           </button>
+         </Link>
         </div>
       </div>
     </div>

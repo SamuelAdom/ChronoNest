@@ -93,7 +93,7 @@ export const products = [
     name: "FLAREGLACIERS",
     price: 229.99,
     image: Flare_Glaciers,
-    category: "WATCH",
+    category: "SUNGLASSES",
     description: "FlareGlaciers is a bold timepiece with icy aesthetics and fiery performance — built to impress in any environment."
   },
   {
@@ -101,7 +101,7 @@ export const products = [
     name: "GALACTICGAZERS",
     price: 259.99,
     image: Galactic_Gazers,
-    category: "WATCH",
+    category: "SUNGLASSES",
     description: "GalacticGazers inspires exploration with a futuristic design and a galaxy-inspired dial that captures attention instantly."
   },
   {
@@ -109,7 +109,7 @@ export const products = [
     name: "LEATHERBAND",
     price: 139.99,
     image: Leather_Band,
-    category: "WATCH",
+    category: "BRACELET",
     description: "LeatherBand is a classic reimagined — genuine leather meets modern design for an everyday companion with timeless appeal."
   },
   {
@@ -117,7 +117,7 @@ export const products = [
     name: "METROSHADOWS",
     price: 199.99,
     image: Metro_Shadows,
-    category: "WATCH",
+    category: "SUNGLASSES",
     description: "MetroShadows embodies sleek, shadowy sophistication, tailored for night owls and metro style aficionados alike."
   },
   {
@@ -125,7 +125,7 @@ export const products = [
     name: "MIRAGEDUNES",
     price: 174.99,
     image: Mirage_Dunes,
-    category: "WATCH",
+    category: "SUNGLASSES",
     description: "MirageDunes offers subtle desert tones and soft contours, bringing a sense of calm and style to your wrist."
   },
   {
@@ -133,7 +133,7 @@ export const products = [
     name: "NOBLECREST",
     price: 289.99,
     image: Noble_Crest,
-    category: "WATCH",
+    category: "BRACELET",
     description: "NobleCrest is crafted for the elite — a bold yet elegant design that speaks of heritage, power, and refined taste."
   },
 ];
