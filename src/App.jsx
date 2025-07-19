@@ -10,6 +10,8 @@ import ContactPage from './Pages/ContactPage'
 import ViewProductPage from './Pages/ViewProductPage'
 import CartPage from './Pages/CartPage'
 import WatchPage from './Pages/WatchPage'
+import BraceletPage from './Pages/BraceletPage'
+import SunglassesPage from './Pages/SunglassesPage'
 import CheckoutPage from './Pages/CheckoutPage'
 import MainLayout from './Layouts/MainLayout'
 
@@ -25,6 +27,8 @@ const App = () => {
         <Route path='/contact' element={<ContactPage/>}></Route>
         <Route path='/cart' element={<CartPage/>}></Route>
         <Route path='/watch' element={<WatchPage/>}></Route>
+        <Route path='/sunglasses' element={<SunglassesPage/>}></Route>
+        <Route path='/bracelet' element={<BraceletPage/>}></Route>
         <Route path='/check-out' element={<CheckoutPage/>}></Route>
         <Route path='/product/:ID' element={<ViewProductPage/>}></Route>
         <Route path='/blog/:ID' element={<BlogPage/>}></Route>

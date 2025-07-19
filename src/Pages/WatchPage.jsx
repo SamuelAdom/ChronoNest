@@ -10,7 +10,7 @@ const WatchPage = () => {
       <h1 className="text-4xl font-serif mb-6">Watches</h1>
       <div className="grid grid-cols-1 lg:grid-cols-4 md:grid-cols-3">
         {watchProducts.map((items) => (
-          <ProductCard  items={items} />
+          <ProductCard key={items.id}  items={items} />
         ))}
       </div>
     </div>
