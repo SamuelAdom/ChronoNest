@@ -1,8 +1,10 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import ProductCard from './ProductCard'
 import { products } from '../assets/asset'
 
+
 const TopSellers = () => {
+
   return (
     <div className='bg-white'>
         <div className='flex flex-col items-center mt-10 space-y-2'>
