@@ -3,6 +3,7 @@ import { motion } from 'framer-motion'
 import { products } from '../assets/asset'
 import CompareTable from './CompareTable'
 import CompareCard from './CompareCard'
+import { Link } from 'react-router-dom'
 
 const Compare = () => {
   return (
@@ -22,9 +23,9 @@ const Compare = () => {
           Both timepieces offer exceptional craftsmanship and attention to detail. The choice is yours.
         </p>
         <div>
-          <button className="bg-transparent text-black border-2 border-black px-10 py-3 hover:border-3 cursor-pointer">
+          <Link to={"/shop"}> <button className="bg-transparent text-black border-2 border-black px-10 py-3 hover:border-3 cursor-pointer">
             SHOP MORE
-          </button>
+          </button></Link>
         </div>
       </motion.div>
 

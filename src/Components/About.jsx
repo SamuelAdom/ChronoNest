@@ -1,5 +1,6 @@
 import React from "react";
 import About_Background from "../assets/About_Background.jpg";
+import { Link } from "react-router-dom";
 
 const About = () => {
   return (
@@ -17,7 +18,7 @@ const About = () => {
           Vogue, GQ, Esquire, and Men’s Health, thanks to our commitment to
           quality, innovation, and storytelling through design.
         </p>
-        <button className="bg-transparent sm:text-2xl text-white border-2 border-white px-10 py-3 lg:hover:border-3 cursor-pointer" >OUR STORY</button>
+      <Link to={"/about-us"} onClick={()=>window.scrollTo(0,0)}>  <button className="bg-transparent sm:text-2xl text-white border-2 border-white px-10 py-3 lg:hover:border-3 cursor-pointer" >OUR STORY</button></Link>
       </div>
     </div>
   );

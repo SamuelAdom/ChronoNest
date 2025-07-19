@@ -58,7 +58,7 @@ const Stylish = () => {
       className="w-full transition-transform duration-500 lg:group-hover:scale-105"
     />
     <div className="absolute inset-0 bg-black/30 flex flex-col items-center justify-center text-white text-center">
-      <h2 className="text-3xl font-bold mb-4">ROLEX</h2>
+      <h2 className="text-3xl font-bold mb-4">WATCHES</h2>
       <button className="bg-transparent border-2 text-white px-6 py-3 rounded-sm font-medium lg:hover:text-gray-200 transition">
         View Collection
       </button>
