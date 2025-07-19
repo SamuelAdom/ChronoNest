@@ -14,7 +14,7 @@ const Payment = () => {
             Payment Details
           </h2>
           <form className="space-y-5">
-            <div>
+        
               <input
                 className="w-full p-3 border border-blue-500 rounded-md placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-300"
                 type="card"
@@ -22,7 +22,7 @@ const Payment = () => {
                 required
               />
               
-            </div>
+          
             <input
               className="w-full p-3 border border-blue-500 rounded-md placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-300"
               type="card"
@@ -53,7 +53,7 @@ const Payment = () => {
 
             <button
               type="submit"
-              className="w-full p-3 bg-blue-600 text-white font-semibold rounded-md hover:bg-blue-700 transition"
+              className="w-full p-3 bg-blue-600 text-white font-semibold rounded-md hover:bg-blue-700 transition cursor-pointer"
             >
               Submit Payment
             </button>
