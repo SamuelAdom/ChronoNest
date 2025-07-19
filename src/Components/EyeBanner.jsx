@@ -1,5 +1,6 @@
 import React from "react";
 import Prada from "../assets/Prada.jpg";
+import { Link } from "react-router-dom";
 
 const EyeBanner = () => {
   return (
@@ -14,7 +15,7 @@ const EyeBanner = () => {
             Check out our collection of stylish shades.
           </p>
           <div className="text-center">
-            <button className=" border-1 text-white py-4 px-5 cursor-pointer md:text-3xl lg:text-2xl rounded-sm  hover:text-gray-200 hover:border-1 transition-all duration-300  ">VIEW SUNGLASSES</button>
+           <Link to={"/sunglasses"}> <button onClick={()=>window.scrollTo(0,0)} className=" border-1 text-white py-4 px-5 cursor-pointer md:text-3xl lg:text-2xl rounded-sm  hover:text-gray-200 hover:border-1 transition-all duration-300  ">VIEW SUNGLASSES</button></Link>
           </div>
         </div>
       </div>

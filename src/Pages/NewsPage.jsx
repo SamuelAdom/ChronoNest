@@ -7,9 +7,13 @@ const NewsPage = () => {
     <>
       <div className="flex flex-col justify-center items-center mt-7 space-y-3">
         <h1 className="text-5xl font-serif ">News</h1>
-        <p className="text-lg font-mono text-yellow-600">
-          ACCESSORIES | BLOG | BRACELETS | SUNGLASSES | WATCHES{" "}
-        </p>
+       <p className="text-lg font-mono text-yellow-600 flex gap-4 flex-wrap">
+  <Link className="hover:underline cursor-pointer">ACCESSORIES</Link> |
+  <Link to="/news" className="hover:underline cursor-pointer">BLOG</Link> |
+  <Link to="/bracelet" className="hover:underline cursor-pointer">BRACELETS</Link> |
+  <Link to="/sunglasses" className="hover:underline cursor-pointer">SUNGLASSES</Link> |
+  <Link to="/watch" className="hover:underline cursor-pointer">WATCHES</Link>
+</p>
       </div>
       <div>
         <ul className="grid gap-8 sm:grid-cols-2 md:grid-cols-3 m-7 ">
