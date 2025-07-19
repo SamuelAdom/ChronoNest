@@ -3,6 +3,7 @@ import Watch_icon from "../assets/Watch-icon.png";
 import Sunglasses from "../assets/Sunglasses.jpg";
 import Rolex from "../assets/Rolex.jpg";
 import Bracelet from "../assets/Bracelet.jpg";
+import { Link } from "react-router-dom";
 
 const Stylish = () => {
   return (
@@ -26,46 +27,45 @@ const Stylish = () => {
             className="w-full transition-transform duration-500 lg:group-hover:scale-105"
           />
 
-  
           <div className="absolute inset-0 bg-black/30 flex flex-col items-center justify-center text-white text-center">
             <h2 className="text-3xl font-bold mb-4">SUNGLASSES</h2>
-            <button className="bg-transparent border-2 text-white px-6 py-3 rounded-sm font-medium lg:hover:text-gray-200 transition cursor-pointer">
+            <button button onClick={()=>window.scrollTo(0,0)} className="bg-transparent border-2 text-white px-6 py-3 rounded-sm font-medium lg:hover:text-gray-200 transition cursor-pointer">
               View Collection
             </button>
           </div>
         </div>
-       <div className="flex flex-col gap-2 sm:gap-5 ">
-  
-  <div className="relative w-full group">
-    <img
-      src={Bracelet}
-      alt="bracelet"
-      className="w-full transition-transform duration-500 lg:group-hover:scale-105"
-    />
-    <div className="absolute inset-0 bg-black/30 flex flex-col items-center justify-center text-white text-center">
-      <h2 className="text-3xl font-bold mb-4">BRACELETS</h2>
-      <button className="bg-transparent border-2 text-white px-6 py-3 rounded-sm font-medium lg:hover:text-gray-200 transition cursor-pointer">
-        View Collection
-      </button>
-    </div>
-  </div>
+        <div className="flex flex-col gap-2 sm:gap-5 ">
+          <div className="relative w-full group">
+            <img
+              src={Bracelet}
+              alt="bracelet"
+              className="w-full transition-transform duration-500 lg:group-hover:scale-105"
+            />
+            <div className="absolute inset-0 bg-black/30 flex flex-col items-center justify-center text-white text-center">
+              <h2 className="text-3xl font-bold mb-4">BRACELETS</h2>
+              <button button onClick={()=>window.scrollTo(0,0)} className="bg-transparent border-2 text-white px-6 py-3 rounded-sm font-medium lg:hover:text-gray-200 transition cursor-pointer">
+                View Collection
+              </button>
+            </div>
+          </div>
 
-  
-  <div className="relative w-full group">
-    <img
-      src={Rolex}
-      alt="rolex"
-      className="w-full transition-transform duration-500 lg:group-hover:scale-105"
-    />
-    <div className="absolute inset-0 bg-black/30 flex flex-col items-center justify-center text-white text-center">
-      <h2 className="text-3xl font-bold mb-4">WATCHES</h2>
-      <button className="bg-transparent border-2 text-white px-6 py-3 rounded-sm font-medium lg:hover:text-gray-200 transition cursor-pointer">
-        View Collection
-      </button>
-    </div>
-  </div>
-</div>
-
+          <div className="relative w-full group">
+            <img
+              src={Rolex}
+              alt="rolex"
+              className="w-full transition-transform duration-500 lg:group-hover:scale-105"
+            />
+            <div className="absolute inset-0 bg-black/30 flex flex-col items-center justify-center text-white text-center">
+              <h2 className="text-3xl font-bold mb-4">WATCHES</h2>
+              <Link to={"/watch"}>
+                
+                <button onClick={()=>window.scrollTo(0,0)} className="bg-transparent border-2 text-white px-6 py-3 rounded-sm font-medium lg:hover:text-gray-200 transition cursor-pointer">
+                  View Collection
+                </button>
+              </Link>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

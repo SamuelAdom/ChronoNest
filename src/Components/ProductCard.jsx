@@ -12,7 +12,7 @@ const ProductCard = ({items}) => {
       <img
         src={items.image}
         alt={items.name}
-        className="h-full w-full object-contain mb-4 cursor-pointer"
+        className="h-fit w-full object-contain mb-4 cursor-pointer"
       />
 </Link>
 

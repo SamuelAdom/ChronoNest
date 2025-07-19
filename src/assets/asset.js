@@ -85,7 +85,7 @@ export const products = [
     name: "CANYONHARMONY",
     price: 189.99,
     image: Canyon_Harmony,
-    category: "WATCH",
+    category: "BRACELET",
     description: "CanyonHarmony draws inspiration from nature's balance, offering an earthy elegance with a rugged yet refined design."
   },
   {
