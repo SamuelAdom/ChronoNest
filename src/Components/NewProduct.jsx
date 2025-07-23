@@ -3,9 +3,11 @@ import { motion } from "framer-motion";
 import { ShopContext } from "../Context/ShopContext";
 import { products } from "../assets/asset";
 import { Link } from "react-router-dom";
+  import { toast } from 'react-toastify';
 
 const NewProduct = () => {
   const { addToCart } = useContext(ShopContext);
+     const notify = () => toast("Item succesfully added to cart");
 
 
   const featuredProduct = products[9];
@@ -54,12 +56,15 @@ const NewProduct = () => {
           </div>
 
           <div className="flex flex-col gap-4 w-full">
-            <button
-              onClick={() => addToCart(featuredProduct.id)}
-              className="w-full px-4 py-3 bg-white text-black rounded-sm lg:hover:border-2 cursor-pointer transition"
-            >
-              ADD TO CART
-            </button>
+          <button
+  onClick={() => {
+    addToCart(featuredProduct.id);
+    notify();
+  }}
+  className="w-full px-4 py-3 bg-white text-black rounded-sm lg:hover:border-2 cursor-pointer transition"
+>
+  ADD TO CART
+</button>
            <Link to={`/product/${featuredProduct.id}`} onClick={() => window.scrollTo(0, 0)}> <button className="w-full px-4 py-3 borde bg-black text-white rounded-sm cursor-pointer">
               VIEW PRODUCT
             </button>

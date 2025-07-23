@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const About = () => {
   return (
     <div
-      className="bg-cover bg-center bg-fixed  relative h-screen"
+      className="relative h-160 lg:h-screen md:h-150  bg-cover bg-center"
       style={{ backgroundImage: `url(${About_Background})` }}
     >
       <div className="flex flex-col justify-center items-center h-screen space-y-3.5">

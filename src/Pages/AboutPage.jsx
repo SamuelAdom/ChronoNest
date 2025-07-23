@@ -100,7 +100,7 @@ const AboutPage = () => {
           look forward to helping you discover the perfect accessories to
           express your unique personality and enhance your overall look.
         </p>
-       <Link to={"/contact"}> <button className="bg-black text-white py-3 px-7 rounded-sm lg:hover:bg-transparent lg:hover:text-black hover:border-2 duration-300 transition-all cursor-pointer">JOIN NOW</button></Link>
+       <Link to={"/contact"}> <button onClick={()=>window.scrollTo(0,0)} className="bg-black text-white py-3 px-7 rounded-sm lg:hover:bg-transparent lg:hover:text-black hover:border-2 duration-300 transition-all cursor-pointer">JOIN NOW</button></Link>
       </div>
       <div className="mt-8"><TestimonialSection/></div>
     </>

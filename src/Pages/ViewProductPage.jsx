@@ -38,7 +38,7 @@ const ViewProductPage = () => {
    <p className='font-mono text-lg'>{cartItems[itemInfo.id] || 0}</p>
 
         <AddButton itemInfo={itemInfo}/>
-       <Link to={'/cart'}> <button className='bg-black text-white px-5 py-2 cursor-pointer lg:hover:bg-amber-400 hover:text-white transition-all duration-500'>ADD TO CART</button></Link>
+       <Link to={'/cart'}> <button className='bg-black text-white px-5 py-2 cursor-pointer lg:hover:bg-amber-400 hover:text-white transition-all duration-500'>VIEW CART</button></Link>
 
     </div>
     <hr className='mt-8' />

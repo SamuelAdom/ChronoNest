@@ -1,9 +1,12 @@
 import React, { useContext } from "react"
 import { ShopContext } from "../Context/ShopContext"
 import { Link } from "react-router-dom"
+  import { toast } from 'react-toastify';
+
 
 const ProductCard = ({items}) => {
   const{addToCart}=useContext(ShopContext)
+      const notify = () => toast("Item succesfully added to cart");
 
   return (
     <div className=" mt-10 sm:mt-0 w-90 md:w-80 bg-white rounded-xl shadow-md p-4 text-center  lg:hover:border-1 ">
@@ -19,11 +22,16 @@ const ProductCard = ({items}) => {
       <h3 className="text-lg font-mono">{items.name}</h3>
       <p className="text-gray-600 mt-1 text-base">${items.price}</p>
 
-      <button onClick={()=>{{addToCart(items.id)}}}
-        className="mt-4 px-5 sm:px-15 sm:py-3 py-2 bg-transparent border-2 border-black text-black rounded-sm lg:hover:border-3 transition cursor-pointer"
-      >
-      ADD TO CART
-      </button>
+<button
+  onClick={() => {
+    addToCart(items.id);
+    notify();
+  }}
+  className="mt-4 px-5 sm:px-15 sm:py-3 py-2 bg-transparent border-2 border-black text-black rounded-sm lg:hover:border-3 transition cursor-pointer"
+>
+  ADD TO CART
+</button>
+
     </div>
   )
 }
