@@ -6,13 +6,13 @@ const ProductCard = ({items}) => {
   const{addToCart}=useContext(ShopContext)
 
   return (
-    <div className="w-80 bg-white rounded-xl shadow-md p-4 text-center  lg:hover:border-1 ">
+    <div className=" mt-10 sm:mt-0 w-90 md:w-80 bg-white rounded-xl shadow-md p-4 text-center  lg:hover:border-1 ">
 <Link to={`/product/${items.id}`} onClick={() => window.scrollTo(0, 0)} >
 
       <img
         src={items.image}
         alt={items.name}
-        className="h-fit w-full object-contain mb-4 cursor-pointer"
+        className="h-50 md:h-fit md:w-full w-70 object-contain mb-4 cursor-pointer"
       />
 </Link>
 

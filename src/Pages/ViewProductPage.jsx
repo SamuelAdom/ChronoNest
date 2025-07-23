@@ -30,7 +30,7 @@ const ViewProductPage = () => {
         <p className='text-lg font-bold'>${itemInfo.price}</p>
     </div>
     <div className='flex flex-col gap-2.5'>
-        <h1 className='text-3xl font-serif'>{itemInfo.name}</h1>
+        <h1 className='text-lg md:text-3xl font-serif'>{itemInfo.name}</h1>
         <p className='text-lg font-light'>{itemInfo.description}</p>
     </div>
     <div className='flex items-center gap-2.5 mt-6'>
