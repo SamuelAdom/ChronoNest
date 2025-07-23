@@ -12,7 +12,7 @@ const ProductCard = ({items}) => {
       <img
         src={items.image}
         alt={items.name}
-        className="h-50 md:h-fit md:w-full w-70 object-contain mb-4 cursor-pointer"
+        className="h-50 md:h-fit w-full object-contain mb-4 cursor-pointer"
       />
 </Link>
 
@@ -20,7 +20,7 @@ const ProductCard = ({items}) => {
       <p className="text-gray-600 mt-1 text-base">${items.price}</p>
 
       <button onClick={()=>{{addToCart(items.id)}}}
-        className="mt-4 px-15 py-3 bg-transparent border-2 border-black text-black rounded-sm lg:hover:border-3 transition cursor-pointer"
+        className="mt-4 px-5 sm:px-15 sm:py-3 py-2 bg-transparent border-2 border-black text-black rounded-sm lg:hover:border-3 transition cursor-pointer"
       >
       ADD TO CART
       </button>

@@ -12,7 +12,7 @@ const NewProduct = () => {
 
   return (
     <div className="grid grid-cols-1 sm:grid-cols-2 mt-8 m-5 sm:m-15 gap-6">
-      {/* Text Section */}
+    
       <motion.div
         className="flex flex-col gap-4 sm:mt-40"
         initial={{ opacity: 0, y: 40 }}
@@ -29,7 +29,6 @@ const NewProduct = () => {
         </p>
       </motion.div>
 
-      {/* Image Section */}
       <motion.div
         className="relative w-full h-[500px] overflow-hidden"
         initial={{ opacity: 0, y: 40 }}

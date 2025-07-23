@@ -4,12 +4,13 @@ import About_Fashion from "../assets/About_Fashion.jpg";
 import Craftman from "../assets/Craftman.jpg";
 import Variety from "../assets/Variety.jpg";
 import TestimonialSection from "../Components/TestimonialSection";
+import { Link } from "react-router-dom";
 
 const AboutPage = () => {
   return (
     <>
       <div
-        className="relative h-80 lg:h-screen md:h-150  bg-cover bg-center"
+        className="relative h-50 lg:h-screen md:h-150  bg-cover bg-center"
         style={{ backgroundImage: `url(${About_Banner})` }}
       >
         <div className="flex justify-center">
@@ -99,7 +100,7 @@ const AboutPage = () => {
           look forward to helping you discover the perfect accessories to
           express your unique personality and enhance your overall look.
         </p>
-        <button className="bg-black text-white py-3 px-7 rounded-sm lg:hover:bg-transparent lg:hover:text-black hover:border-2 duration-300 transition-all cursor-pointer">JOIN NOW</button>
+       <Link to={"/contact"}> <button className="bg-black text-white py-3 px-7 rounded-sm lg:hover:bg-transparent lg:hover:text-black hover:border-2 duration-300 transition-all cursor-pointer">JOIN NOW</button></Link>
       </div>
       <div className="mt-8"><TestimonialSection/></div>
     </>
